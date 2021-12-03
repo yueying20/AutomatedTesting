@@ -23,9 +23,9 @@ driver.find_element(By.ID, 'com.android.packageinstaller:id/permission_allow_but
 sleep(10)
 driver.find_element(By.ID, 'com.netease.cloudmusic:id/agreeCheckbox').click()
 driver.find_element(By.ID, 'com.netease.cloudmusic:id/mail').click()
-driver.find_element(By.ID, "com.netease.cloudmusic:id/email").send_keys("qingyue404@163.com")
+driver.find_element(By.ID, "com.netease.cloudmusic:id/email").send_keys("邮箱名称")
 # 登录输入账号和密码
-driver.find_element(By.ID, 'com.netease.cloudmusic:id/password').send_keys("ASD0421.")
+driver.find_element(By.ID, 'com.netease.cloudmusic:id/password').send_keys("密码")
 driver.find_element(By.ID, 'com.netease.cloudmusic:id/login').click()
 driver.find_element(By.ID, 'com.netease.cloudmusic:id/login').click()
 sleep(7)
